@@ -1,6 +1,6 @@
 class TestJob < ApplicationJob
   def perform
-    Product.create /
+    Product.create \
       name: 'prod',
       description: 'desc'
   end
